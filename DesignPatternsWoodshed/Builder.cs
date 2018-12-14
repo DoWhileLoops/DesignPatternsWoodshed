@@ -6,17 +6,6 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsWoodshed
 {
-    //Band
-    /// Band
-    ///     Albums
-    ///     Members
-    /// Album
-    /// Musician
-    /// BandBuilder
-    ///     : BandMemberBuilder
-    ///     : BandAlbumBuilder
-    /// 
-
     public enum Genre { Rock, Blues, Jazz, Funk, Country, Classical };
     public enum Instrument { Guitar, Bass, Keyboards, Drums, Vocals };
 
@@ -197,7 +186,7 @@ namespace DesignPatternsWoodshed
         }
     }
 
-    class Program
+    class Builder
     {
         
         static void Main(string[] args)
